@@ -7,25 +7,26 @@ A Ruby Gem designed to expedite: the git tagging procedure and updating a change
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'git_tagger',
+gem "git_tagger",
     tag: "1.1.8",
-    git: "https://github.com/eschlange/git_tagger.git"
+    git: "https://github.com/cbitstech/git_tagger.git"
 ```
 
 Add the following code to the project's Rakefile:
 
 ```ruby
-    git_tagger = Gem::Specification.find_by_name "git_tagger"
-    load "#{git_tagger.gem_dir}/lib/tasks/deploy.rake"
+git_tagger = Gem::Specification.find_by_name "git_tagger"
+load "#{ git_tagger.gem_dir }/lib/tasks/deploy.rake"
 ```
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install git_tagger
+```
+$ bundle
+...
+Bundle complete! ...
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+```
 
 ## Usage
 
@@ -41,8 +42,8 @@ Within the root directory of your application
 
 ## Contributing
 
-1. Fork it ( https://github.com/eschlange/git_tagger/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1. Fork it [https://github.com/cbitstech/git_tagger/fork](https://github.com/cbitstech/git_tagger/fork)
+1. Create your feature branch (`git checkout -b my-new-feature`)
+1. Commit your changes (`git commit -am 'Add some feature'`)
+1. Push to the branch (`git push origin my-new-feature`)
+1. Create a new Pull Request
