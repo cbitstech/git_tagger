@@ -6,7 +6,6 @@ AllCops:
     - spec/dummy/**/*
     - Rakefile
     - git_tagger.gemspec
-  RunRailsCops: true
 
 AbcSize:
   Enabled: false

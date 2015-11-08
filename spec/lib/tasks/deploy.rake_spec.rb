@@ -11,7 +11,7 @@ RSpec.describe "deploy:tag" do
 
   def loaded_files_excluding_current_rake_file
     $LOADED_FEATURES.reject do |file|
-      file == File.join(root_path, "#{ task_path }.rake")
+      file == File.join(root_path, "#{task_path}.rake")
     end
   end
 
