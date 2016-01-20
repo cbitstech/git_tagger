@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["eric.schlange@gmail.com"]
   spec.summary       = %q{expedites the git tagging procedure and updating a changelog for Rails projects and Gems}
   spec.description   = %q{}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/cbitstech/git_tagger"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.3.0"
+  spec.add_development_dependency "rspec", "~> 3.3"
   spec.add_development_dependency "timecop", "~> 0.7.4"
   spec.add_development_dependency "simplecov", "~> 0.10.0"
 end
