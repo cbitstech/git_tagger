@@ -9,7 +9,7 @@ Add this line to your application's Gemfile:
 ```ruby
 gem "git_tagger",
     tag: "1.1.8",
-    git: "https://github.com/cbitstech/git_tagger.git"
+    git: "https://github.com/NU-CBITS/git_tagger.git"
 ```
 
 Add the following code to the project's Rakefile:
@@ -42,7 +42,7 @@ Within the root directory of your application
 
 ## Contributing
 
-1. Fork it [https://github.com/cbitstech/git_tagger/fork](https://github.com/cbitstech/git_tagger/fork)
+1. Fork it [https://github.com/NU-CBITS/git_tagger/fork](https://github.com/NU-CBITS/git_tagger/fork)
 1. Create your feature branch (`git checkout -b my-new-feature`)
 1. Commit your changes (`git commit -am 'Add some feature'`)
 1. Push to the branch (`git push origin my-new-feature`)
