@@ -7,9 +7,7 @@ A Ruby Gem designed to expedite: the git tagging procedure and updating a change
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "git_tagger",
-    tag: "1.1.8",
-    git: "https://github.com/NU-CBITS/git_tagger.git"
+gem "git_tagger", "~> 1.X"
 ```
 
 Add the following code to the project's Rakefile:
